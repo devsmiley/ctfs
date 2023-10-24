@@ -21,4 +21,10 @@ The password for the next level is stored in a file called **-** located in the 
 $ cat ./-
 ```
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+```bash
+banditl@bandit:~$ ls
+banditl@bandit:~$ cat ./-rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi
+bandit1@bandit:~$
+logout
+Connection to bandit.labs.overthewire.org closed.
+```

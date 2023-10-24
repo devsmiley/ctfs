@@ -16,4 +16,18 @@ The password for the next level is stored in a hidden file in the **inhere** dir
 $ ls -a
 ```
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+{% code overflow="wrap" %}
+```bash
+bandit3@bandit:~$ ls
+inhere
+bandit3@bandit:~$ cd inhere/ 
+bandit3@bandit:~/inhere$ ls 
+bandit3@bandit:~/inhere$ ls -a
+. .. .hidden
+bandit3abandit:~/inhere$ cat hidden
+2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe
+bandit3@bandit:~/inhere$
+logout
+Connection to bandit.labs.overthewire.org closed.
+```
+{% endcode %}

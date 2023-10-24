@@ -13,6 +13,6 @@ The goal of this level is for you to log into the game using SSH. The host to wh
 ```bash
 -l = login name
 -p = port
-```
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+$ ssh -1 bandito -p 2220 bandit.Labs.overthewire.org
+```

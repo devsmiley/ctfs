@@ -38,7 +38,32 @@ $ find . -type f -exec file {} +
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+{% code overflow="wrap" %}
+```bash
+bandit4@bandit:~$ ls
+inhere
+bandit4@bandit:~$ cd inhere/ bandit4@bandit:~/inhere$ ls
+-file00
+-file02 -file04 -file06 -file08
+-file01-file03 -file05 -file07 -file09
+bandit4@bandit:~/inhere$ find . -type f -exec file {} \;
+•/-file03: data
+•/-file06: data
+•/-file08: data
+•/-file07: ASCII text
+•/-file04: data
+•/-file00: data
+•/-file01: data
+•/-file02: data
+•/-file09: Non-ISO extended-ASCII text, with no line terminators
+•/-file05: data
+bandit4@bandit:~/inhere$ cat ./-file07
+IrIWWI6bB37kxfiCQZqUd0IYfr6eEeqR
+bandit4@bandit:~/inhere$
+logout
+Connection to bandit.labs.overthewire.org closed.
+```
+{% endcode %}
 
 * Another solution is to use **xargs** command (does it old school way)
 * The xargs command reads lines of text from the standard input or from the output of another command and turns them into commands and execute them.
@@ -48,4 +73,29 @@ $ find . -type f -exec file {} +
 
 * **find** command lists file names and **xargs** command provides them one by one (as if it was an input to another command)
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+```bash
+bandit4@bandit:~$ ls
+inhere
+OwcBapmTEZ13bVBHMM9H66VVX]L
+bandit4@bandit:~$ cd inhere/ bandit4@bandit:~/inhere$ ls
+SaX8MKIRTbICNQoXTcYZWU61gz1
+-file00
+-file04 a-file06
+-file02ev-file04 a-file06 U-file08 0eOwd8bauFJ21AiG
+-file01 -file03 -file05 -file07 -file09
+EgX26XNe
+bandit4@bandit:~/inhere$ find . -type fI xargs file
+•/-file03: data
+•/-file06: data
+eveL t
+•/-file08: data
+•/-file07: ASCII text
+•/-file04: data
+•/-file00: data
+•/-file01: data ./-file02: data
+•/-file09: Non-ISO extended-ASCII text, with no line terminators ./-file05: data bandit4@bandit:~/inhere$ cat ./-file07
+IrIWWI6bB37kxfiCQZqUd0IYfr6eEeqR
+bandit4@bandit:~/inhere$
+logout
+Connection to bandit.labs.overthewire.org closed.
+```

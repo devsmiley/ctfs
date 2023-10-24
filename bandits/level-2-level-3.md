@@ -24,4 +24,13 @@ OR
 $ cat file\ name\ with\ spaces
 ```
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+{% code overflow="wrap" %}
+```bash
+bandit2@bandit:~$ ls spaces in this filename
+bandit2@bandit:~$ cat "spaces in this filename" aBZOW5EmUfAf7kHTQe0wd8bauFJ2lAiG
+bandit2@bandit:~$ cat spaces\ in\ this\ filename aBZOW5EmUfAf7kHTQe0wd8bauFJ2lAiG
+bandit2@bandit:~$
+logout
+Connection to bandit. labs.overthewire.org closed.
+```
+{% endcode %}

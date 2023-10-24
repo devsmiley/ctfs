@@ -17,4 +17,11 @@ pwd - to get present working directory
 * After receiving the password, logout of the ssh session for bandit0 by Ctrl+D or exit
 * Login to bandit1 using the password from **readme** file
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+```bash
+bandit0@bandit:~$ ls readme
+bandit0@bandit:~$ cat readme
+NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL
+bandit0@bandit:~$
+Logout
+Connection to bandit.labs.overthewire.org closed.
+```
