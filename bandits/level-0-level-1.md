@@ -20,7 +20,7 @@ pwd - to get present working directory
 ```bash
 bandit0@bandit:~$ ls readme
 bandit0@bandit:~$ cat readme
-NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL
+****pass******
 bandit0@bandit:~$
 Logout
 Connection to bandit.labs.overthewire.org closed.

@@ -33,7 +33,7 @@ $ 2 > /dev/null
 bandit6@bandit:~$ find / -size 33c-user bandit7 -group bandit6 -type f 2 > /dev/null
 /var/lib/dpkg/info/bandit7.password
 bandit6@bandit:~$ cat /var/lib/dpkg/info/bandit7.password
-z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S
+****pass******
 bandit6@bandit:~$
 logout
 Connection to bandit.labs.overthewire.org closed.

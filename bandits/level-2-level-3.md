@@ -27,8 +27,9 @@ $ cat file\ name\ with\ spaces
 {% code overflow="wrap" %}
 ```bash
 bandit2@bandit:~$ ls spaces in this filename
-bandit2@bandit:~$ cat "spaces in this filename" aBZOW5EmUfAf7kHTQe0wd8bauFJ2lAiG
-bandit2@bandit:~$ cat spaces\ in\ this\ filename aBZOW5EmUfAf7kHTQe0wd8bauFJ2lAiG
+bandit2@bandit:~$ cat "spaces in this filename" 
+****pass******
+bandit2@bandit:~$ cat spaces\ in\ this\ filename ****pass******
 bandit2@bandit:~$
 logout
 Connection to bandit. labs.overthewire.org closed.

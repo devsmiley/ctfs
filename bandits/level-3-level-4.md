@@ -25,7 +25,7 @@ bandit3@bandit:~/inhere$ ls
 bandit3@bandit:~/inhere$ ls -a
 . .. .hidden
 bandit3abandit:~/inhere$ cat hidden
-2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe
+****pass******
 bandit3@bandit:~/inhere$
 logout
 Connection to bandit.labs.overthewire.org closed.

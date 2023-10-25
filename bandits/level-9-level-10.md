@@ -40,7 +40,7 @@ W=y
 q=W
 X=К,
 
-============G7w8LIi6J3kTb8A7j9\grywtEUlyyp6s
+============****pass******
 &S=(
 nd?= 
 bandit9@bandit:~$

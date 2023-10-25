@@ -58,7 +58,7 @@ bandit4@bandit:~/inhere$ find . -type f -exec file {} \;
 •/-file09: Non-ISO extended-ASCII text, with no line terminators
 •/-file05: data
 bandit4@bandit:~/inhere$ cat ./-file07
-IrIWWI6bB37kxfiCQZqUd0IYfr6eEeqR
+****pass******
 bandit4@bandit:~/inhere$
 logout
 Connection to bandit.labs.overthewire.org closed.
@@ -94,7 +94,7 @@ eveL t
 •/-file00: data
 •/-file01: data ./-file02: data
 •/-file09: Non-ISO extended-ASCII text, with no line terminators ./-file05: data bandit4@bandit:~/inhere$ cat ./-file07
-IrIWWI6bB37kxfiCQZqUd0IYfr6eEeqR
+****pass******
 bandit4@bandit:~/inhere$
 logout
 Connection to bandit.labs.overthewire.org closed.

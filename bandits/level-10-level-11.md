@@ -21,9 +21,9 @@ data.txt
 bandit10@bandit:~$ file data.txt
 data.txt: ASCII text
 bandit10@bandit:~$ cat data. txt
-VGhlIHBhc3N3b3JkIG\zIDZ6UGV6aUxkUjJSS05kT11GTmI2b|ZDS3pwaGxYSEJNCg=
+ ****encoded pass******
 bandit10@bandit:~$ base64 -decode data.txt
-The password is 6zPeziLdR2RKNdNYFNb6nVCKzph\XHBM
+The password is ****pass******
 bandit10@bandit:~$
 logout
 Connection to bandit.labs.overthewire.org closed.

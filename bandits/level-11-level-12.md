@@ -28,9 +28,9 @@ SET = string of characters, including the special backslash-escaped characters.
 
 ```bash
 bandit11@bandit:~$ ls
-data. txt
+data.txt
 bandit11@bandit:~$ cat data.txt | tr '[a-zA-Z]' '[n-za-mN-ZA-M]'
-The password is JVNBBFSmZwKKOP0XbFX00W8chDz5yVRv
+The password is ****pass******
 bandit11@bandit:~$
 logout
 vel

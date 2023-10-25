@@ -14,7 +14,7 @@ The password for the next level is stored in the file **data.txt** next to the w
 bandit7@bandit:~$ ls
 data.txt
 banditz@bandit:~$ grep -i "millionth" data.txt
-millionth.      TESKZCOXvTetK0S9xNwm25STk5iWrBvP
+millionth.      ****pass******
 bandit7@bandit:~$
 logout
 Connection to bandit.labs.overthewire.org closed.

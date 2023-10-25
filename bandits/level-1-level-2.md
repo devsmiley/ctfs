@@ -23,7 +23,8 @@ $ cat ./-
 
 ```bash
 banditl@bandit:~$ ls
-banditl@bandit:~$ cat ./-rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi
+banditl@bandit:~$ cat ./-
+****pass******
 bandit1@bandit:~$
 logout
 Connection to bandit.labs.overthewire.org closed.

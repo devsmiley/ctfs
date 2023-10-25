@@ -97,7 +97,7 @@ print 1st line from top
 bandit8@bandit:~$ ls
 data.txt
 bandit8@bandit:~$ sort data.txt | uniq-c lsort -n | head -n 1
-Level 1 EN632PlfYiZbn3PhVK3X0GSINInNE00t KqJU
+1 ****pass******
 bandit8@bandit:~$
 Logout
 Connection to bandit.labs.overthewire.org closed.

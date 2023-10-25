@@ -54,7 +54,7 @@ maybehere19
 bandit5@bandit:~/inhere$ find -size 1033c -type f -exec file {} \;
 <strong>./maybehere07/.file2: ASCII text, with very long lines (1000) 
 </strong><strong>bandit5abandit:~/inhere$ cat maybehere07/.file2
-</strong>P4L4vucdmLnm8I7V17jG1ApGSfjYKqJU
+</strong>****pass******
 bandit5@bandit:~/inhere$
 logout
 Connection to bandit.labs.overthewire.org closed.
