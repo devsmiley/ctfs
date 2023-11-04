@@ -15,4 +15,4 @@ cron, crontab, crontab(5) (use “man 5 crontab” to access this)
 * **whoami** command prints the username which will be bandit23
 * In next echo, we replace $myname with bandit23 which returns the desired key
 
-<figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (24) (1).png" alt=""><figcaption></figcaption></figure>

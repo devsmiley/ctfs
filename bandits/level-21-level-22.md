@@ -13,4 +13,4 @@ cron, crontab, crontab(5) (use “man 5 crontab” to access this)
 * For next level, we read the cronjob\_bandit22 file and find the user bandit22 is reboot and the data from /usr/…. file is redirected to /dev/null
 * /usr/… file is a shell script where permission for another file is set to 644 which means all the users can read the file
 
-<figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (23) (1).png" alt=""><figcaption></figcaption></figure>

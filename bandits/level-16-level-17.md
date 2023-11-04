@@ -19,7 +19,7 @@ ssh, telnet, nc, openssl, s\_client, nmap
     ### **OR**
 * Use netstat for finding open tcp ports
 
-<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### &#x20;                                         OR
 
@@ -29,12 +29,12 @@ $ nmap -sV -T4
 -T4 = to increase the speed
 ```
 
-<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (18) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **31518 and 31790** ports are open from the range with SSL
 * Use openssl s\_client for connecting to ports using SSL encryption. 31518 return the password back as service mentioned is ssl/echo. 31790 returns private key
 
-<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure>
 
 ```
 - - -
@@ -50,9 +50,9 @@ bandit16@bandit:~$
 
 * Create a file for private key
 
-<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (20) (1).png" alt=""><figcaption></figcaption></figure>
 
 * After changing the permission to 400 (owner = read, g, a = no perm), login using ssh to next level
 
-<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (21) (1).png" alt=""><figcaption></figcaption></figure>
 

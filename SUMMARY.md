@@ -39,3 +39,9 @@
 * [Level 31 → Level 32](bandits/level-31-level-32.md)
 * [Level 32 → Level 33](bandits/level-32-level-33.md)
 * [Level 33 → Level 34](bandits/level-33-level-34.md)
+
+## TryHackMe
+
+* [OhSINT](tryhackme/ohsint.md)
+* [Pickle Rick](tryhackme/pickle-rick.md)
+* [RootMe](tryhackme/rootme.md)
