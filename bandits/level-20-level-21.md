@@ -22,7 +22,7 @@ v = verbose
 p = port no
 ```
 
-<figure><img src="../.gitbook/assets/image (22) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (22) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Connect to the same port using executable file
 * Enter the password for this level on listener side

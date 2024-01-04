@@ -14,7 +14,7 @@ The password for the next level is stored **somewhere on the server** and has al
 
 ### Solution:
 
-<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * To avoid error message printed on terminal, use error file descriptors
 

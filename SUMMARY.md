@@ -42,6 +42,7 @@
 
 ## TryHackMe
 
+* [Cyborg](tryhackme/cyborg.md)
 * [OhSINT](tryhackme/ohsint.md)
 * [Pickle Rick](tryhackme/pickle-rick.md)
 * [RootMe](tryhackme/rootme.md)
